@@ -1,4 +1,4 @@
-# html-components 
+# aurelia-components 
 
 HTML components for usage with [Aurelia](https://github.com/aurelia) and [TypeScript](https://github.com/Microsoft/TypeScript).
 
