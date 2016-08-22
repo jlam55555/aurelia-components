@@ -1,0 +1,7 @@
+<template class="reorderable ${locked?'locked':''}">
+  <div repeat.for="value of values" class="fluid-children">
+    <div class="handle"></div>
+    ${value | sanitizeHTML}
+  </div>  
+  <button click.delegate="lockToggle()">Toggle Lock</button>
+</template>
